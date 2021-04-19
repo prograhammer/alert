@@ -1,6 +1,6 @@
 {
   "name": "@prograhammer/alert",
-  "version": "0.0.6",
+  "version": "0.0.7",
   "description": "Simple React Alert",
   "main": "dist/alert.js",
   "author": "David Graham",
