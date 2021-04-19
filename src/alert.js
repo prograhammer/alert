@@ -1,9 +1,11 @@
 import * as React from 'react';
 
-export const Alert = ({name, children}) => {
+export const Alert = ({title, message, type, children}) => {
   return (
     <div className="alert">
-      <h1>Hello from {name ? name : 'alert'}</h1>
+      <h1>Type: { ['warning', 'danger'].includes(type) && type }</h1>
+      <h2>Title: { title || 'alert'}</h2>
+      <span>{ message }</span>
       { children }
     </div>
   )
